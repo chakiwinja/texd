@@ -1,6 +1,6 @@
 CC= gcc
 
-CDEPS= -Ilib -Iinclude
+CDEPS= -Ilib -Iinclude -lSDL2
 
 CFLAGS= $(CDEPS) 
 
