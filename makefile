@@ -13,6 +13,8 @@ run: build
 	bin/$(BIN)
 
 build: source
+	mkdir -p bin
+	mkdir -p obj
 	$(CC) $(CFLAGS) obj/*.o -o bin/$(BIN)
 
 source:
